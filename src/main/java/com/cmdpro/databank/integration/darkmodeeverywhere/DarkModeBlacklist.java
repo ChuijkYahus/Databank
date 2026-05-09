@@ -12,6 +12,7 @@ public class DarkModeBlacklist {
                 "com.cmdpro.databank",
                 "com.cmdpro.datanessence",
                 "com.cmdpro.runology",
+                "EsetKalenko.Halcyon",
                 "EsetKalenko.Enderstar",
                 "earth.terrarium.pastel"
         );

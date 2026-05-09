@@ -168,7 +168,7 @@ public class DatabankModels {
                             } catch (IOException e) {
                                 throw new RuntimeException(e);
                             }
-                            json = fixJson(i.toString(), json); // Temporary, Remove at some point, only here to stop things from breaking when transitioning the jsons
+                            //json = fixJson(i.toString(), json); // Temporary, Remove at some point, only here to stop things from breaking when transitioning the jsons
 
                             return DatabankModel.CODEC.parse(JsonOps.INSTANCE, json).getOrThrow();
                         }));
